@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("Alea Iacta Est")]
+[assembly: AssemblyTitle("ConsoleApp Alea Iacta Est")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Alea Iacta Est")]
+[assembly: AssemblyProduct("ConsoleApp Alea Iacta Est")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("19de9479-dca7-403b-ae01-d4dbcd1217c7")]
+[assembly: Guid("608a6778-2a8c-4995-b366-82ab37d4d335")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
