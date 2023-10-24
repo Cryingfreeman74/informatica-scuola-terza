@@ -1,0 +1,8 @@
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\bin\Debug\MonteCarloPi.exe.config
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\bin\Debug\MonteCarloPi.exe
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\bin\Debug\MonteCarloPi.pdb
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\obj\Debug\MonteCarloPi.csproj.AssemblyReference.cache
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\obj\Debug\MonteCarloPi.csproj.SuggestedBindingRedirects.cache
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\obj\Debug\MonteCarloPi.csproj.CoreCompileInputs.cache
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\obj\Debug\MonteCarloPi.exe
+C:\Users\marco.balducci\source\repos\MonteCarloPi\MonteCarloPi\obj\Debug\MonteCarloPi.pdb
