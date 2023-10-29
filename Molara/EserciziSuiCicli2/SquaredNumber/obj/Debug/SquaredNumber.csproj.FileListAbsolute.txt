@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\bin\Debug\SquaredNumber.exe.config
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\bin\Debug\SquaredNumber.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\bin\Debug\SquaredNumber.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\obj\Debug\SquaredNumber.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\obj\Debug\SquaredNumber.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\obj\Debug\SquaredNumber.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\SquaredNumber\obj\Debug\SquaredNumber.pdb

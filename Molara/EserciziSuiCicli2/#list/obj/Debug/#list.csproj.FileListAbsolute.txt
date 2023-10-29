@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\bin\Debug\#list.exe.config
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\bin\Debug\#list.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\bin\Debug\#list.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\obj\Debug\#list.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\obj\Debug\#list.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\obj\Debug\#list.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\#list\obj\Debug\#list.pdb
