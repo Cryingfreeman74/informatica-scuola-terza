@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\bin\Debug\ConsoleAppIndovinaUtente.exe.config
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\bin\Debug\ConsoleAppIndovinaUtente.exe
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\bin\Debug\ConsoleAppIndovinaUtente.pdb
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\obj\Debug\ConsoleAppIndovinaUtente.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\obj\Debug\ConsoleAppIndovinaUtente.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\obj\Debug\ConsoleAppIndovinaUtente.exe
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppIndovinaUtente\obj\Debug\ConsoleAppIndovinaUtente.pdb

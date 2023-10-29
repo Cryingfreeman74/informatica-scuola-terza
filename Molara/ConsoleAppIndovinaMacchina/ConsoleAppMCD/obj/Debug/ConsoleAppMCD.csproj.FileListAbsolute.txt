@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\bin\Debug\ConsoleAppMCD.exe.config
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\bin\Debug\ConsoleAppMCD.exe
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\bin\Debug\ConsoleAppMCD.pdb
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\obj\Debug\ConsoleAppMCD.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\obj\Debug\ConsoleAppMCD.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\obj\Debug\ConsoleAppMCD.exe
+C:\Users\Marco\Documents\scuola\ConsoleAppIndovinaMacchina\ConsoleAppMCD\obj\Debug\ConsoleAppMCD.pdb
