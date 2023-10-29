@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\bin\Debug\EserciziSuiCicli2.exe.config
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\bin\Debug\EserciziSuiCicli2.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\bin\Debug\EserciziSuiCicli2.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\obj\Debug\moltiplicazione.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\obj\Debug\moltiplicazione.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\obj\Debug\EserciziSuiCicli2.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziSuiCicli2\EserciziSuiCicli2\obj\Debug\EserciziSuiCicli2.pdb
