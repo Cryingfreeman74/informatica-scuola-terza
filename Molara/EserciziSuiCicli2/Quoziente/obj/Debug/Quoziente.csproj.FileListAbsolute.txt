@@ -1,0 +1,7 @@
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\bin\Debug\Quoziente.exe.config
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\bin\Debug\Quoziente.exe
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\bin\Debug\Quoziente.pdb
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\obj\Debug\Quoziente.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\obj\Debug\Quoziente.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\obj\Debug\Quoziente.exe
+C:\Users\Marco\Documents\scuola\EserciziSuiCicli2\Quoziente\obj\Debug\Quoziente.pdb
