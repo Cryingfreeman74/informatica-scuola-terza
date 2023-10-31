@@ -44,7 +44,7 @@ namespace BaseConv
 
             return valore;
         }
-        static int BaseToInt(string valore, int b)
+        static int BaseToInt(string valore, int b) //conversione da numero in base b a numero in base 10
         {
             int res = 0;
 
@@ -58,7 +58,7 @@ namespace BaseConv
             return res;
         }
 
-        static string IntToBase(int valore, int b)
+        static string IntToBase(int valore, int b) //conversione numero in base 10 a numero in base b
         {
             if (valore < 0) return "value must be 0 or positive"; //se il numero è negativo
             
@@ -79,14 +79,14 @@ namespace BaseConv
             return res;
         }
 
-        static int ReadInt(string messaggio)
+        static int ReadInt(string messaggio) //lettura intero per input
         {
-            int res;
+            int res; //valore convertito
 
             while (true)
             {
-                Console.Write("\n" + messaggio);
-                if (int.TryParse(Console.ReadLine(), out res)) return res;
+                Console.Write("\n" + messaggio); //messaggio utente
+                if (int.TryParse(Console.ReadLine(), out res)) return res; //se conversione ha successo restituisci, altrimenti ricicla
                 else Console.WriteLine("Valore inserito non valido, riprova.");
             }
         }
@@ -100,6 +100,8 @@ namespace BaseConv
             
             Console.WriteLine(BaseToInt("1FE45", 16));
             */
+
+            #region gestione input
 
             Console.WriteLine("BaseToInt [0] or IntToBase [1]");
             char response = Console.ReadKey().KeyChar;
@@ -121,6 +123,9 @@ namespace BaseConv
                 Console.WriteLine("\nNumero convertito: " + IntToBase(numero, b));
             }
 
+            #endregion
+
+            //termine programma
             Console.WriteLine("\n\nPremi un tasto per terminare il programma");
             Console.ReadKey();
         }
