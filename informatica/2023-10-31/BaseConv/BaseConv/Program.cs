@@ -17,8 +17,7 @@ namespace BaseConv
         {
             if (valore < 10)                                //casi da 0 a 9
             {
-                string res = valore.ToString();
-                return res[0];
+                return (char)(valore + 48);
             }
             else                                            //casi da 10 a 36
             {
