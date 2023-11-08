@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\bin\Debug\net6.0\EsercizioScrittura.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\bin\Debug\net6.0\EsercizioScrittura.deps.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\bin\Debug\net6.0\EsercizioScrittura.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\bin\Debug\net6.0\EsercizioScrittura.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\bin\Debug\net6.0\EsercizioScrittura.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\refint\EsercizioScrittura.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\EsercizioScrittura.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\informatica\2023-11-07\EsercizioScrittura\EsercizioScrittura\obj\Debug\net6.0\ref\EsercizioScrittura.dll
