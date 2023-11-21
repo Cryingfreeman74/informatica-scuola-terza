@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pianoforte", "pianoforte\pianoforte.csproj", "{570416CC-52C7-4AE0-9774-9A7F1A29E681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{570416CC-52C7-4AE0-9774-9A7F1A29E681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570416CC-52C7-4AE0-9774-9A7F1A29E681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570416CC-52C7-4AE0-9774-9A7F1A29E681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570416CC-52C7-4AE0-9774-9A7F1A29E681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CD6A645-CED9-49A2-9AD4-CF8D8961FDBB}
+	EndGlobalSection
+EndGlobal
