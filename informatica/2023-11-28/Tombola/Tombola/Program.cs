@@ -10,6 +10,7 @@ namespace Tombola
     {
         static Random rnd = new Random();
         static int[] mappa = new int[90];
+        static int numeriRimasti = 90;
         static void estraiNumero()
         {
             while (true)
@@ -18,6 +19,7 @@ namespace Tombola
                 if (mappa[estratto - 1] == 0)
                 {
                     mappa[estratto - 1] = estratto;
+                    numeriRimasti--;
                     break;
                 }
             }
@@ -186,10 +188,16 @@ namespace Tombola
             {
                 stampaMappa();
 
+                if(numeriRimasti == 0)
+                {
+                    Console.WriteLine("\n\tNumeri finiti!");
+                    break;
+                }
                 if (Scelta()) break;
+
             }
 
-            Console.WriteLine("Premi un tasto per terminare il programma.");
+                Console.WriteLine("\n\nPremi un tasto per terminare il programma.");
             Console.ReadKey();
         }
     }
