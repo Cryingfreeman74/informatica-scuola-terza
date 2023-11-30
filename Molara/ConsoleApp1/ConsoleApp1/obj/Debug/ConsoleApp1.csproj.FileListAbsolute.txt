@@ -5,3 +5,10 @@ C:\Users\baldu\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj
 C:\Users\baldu\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\baldu\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\baldu\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

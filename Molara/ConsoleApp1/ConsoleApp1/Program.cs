@@ -32,11 +32,14 @@ namespace ConsoleApp1
 
             for (int i = 0; i < n; i++)
             {
+                int spazi =(int)(Math.Pow(2,n-i)-1);
+                
                 for(int j = 0; j < (int)(Math.Pow(2,i)); j++)
                 {
                     if (j != 0) num++;
-                    printSpaces(1 + 2 * (n - i -1));
+                    printSpaces(spazi);
                     Console.Write(num);
+                    printSpaces(spazi);
                 }
                 num++;
                 Console.WriteLine();
