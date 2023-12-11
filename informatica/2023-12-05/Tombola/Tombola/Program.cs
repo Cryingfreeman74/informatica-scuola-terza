@@ -127,40 +127,65 @@ namespace Tombola
         #region generazione schedina
         static void generaSchedina()
         {
-            int[] scheda = new int[15]; //array con i numeri estratti
-            schedina = ""; //ripristino la scheda
-            stampaScheda = true; //cambio il valore di stampaScheda così la stamperò a momento opportuno nel main
+            int[] scheda = new int[30]; //array che rappresenta la scheda
 
+            for (int i = 0; i < scheda.Length; i++)
+                scheda[i] = 1; //inizializzo tutti i valori ad uno per poter distinguere gli spazi in seguito
 
-            for(int i = 0; i < 15; i++)
+            for(int i = 0; i<3; i++) //ciclo una volta per riga
             {
-                bool ok = true;
-                int num = rnd.Next(1, 91);
+                int[] spazi = new int[5];
 
-                for(int j = 0; j<i; j++) //controllo se il numero non era già uscito
+                for(int count = 0; count <5; count ++) //ottengo le posizioni degli spazi
                 {
-                    if (scheda[j] == num)
+                    int estratto = rnd.Next(0, 10);
+                    spazi[count] = estratto;
+                    for (int j = 0; j < count; j++) //controllo che non sia già uscito il numero estratto
+                        if (estratto == spazi[j])
+                        {
+                            count--;
+                            break;
+                        }
+
+                }
+
+                for(int j = 0; j<5; j++)
+                    scheda[i*10 + spazi[j]] = 0; //riempio scheda con gli spazi una riga a ciclo
+
+                for (int j = 0; j <10; j++) //riempio la scheda con i numeri
+                {
+                    if (scheda[i*10 + j] == 0) //se alla posizione data c'è uno 0 allora corrisponde ad uno spazio, e non viene assegnato nessun numero
+                        continue;
+                    else
                     {
-                        ok = false;
-                        break;
+                        int estratto = rnd.Next(0,91);
+                        scheda[i*10 + j] = estratto;
+                        for(int k  = 0; k < i*10 + j; k++) //controllo che non sia già uscito il numero estratto
+                        {
+                            if (scheda[k] == estratto)
+                            {
+                                j--;
+                                break;
+                            }
+                        }
                     }
                 }
-                if (ok) scheda[i] = num; //aggiungo il numero all'array
-                else i = i - 1; //faccio rigenerare il numero se questo è già presente
             }
 
-            //composizione schedina
-            schedina += "\n---------------";
-            for(int i =0; i<15; i++)
+            //crezione stringa schedina
+
+            schedina = "------------------------------"; //inizializzo la stringa
+            stampaScheda = true; //valore che verrà usato nel main per stampare la scheda
+
+            for(int i = 0; i< scheda.Length; i++) //formattazione stringa ed inserimento numeri
             {
-                if (i % 5 == 0)
-                {
-                    schedina += "\n"; //ogni 5 numeri va a capo
-                }
-                if (scheda[i] < 10) schedina += "0" + scheda[i].ToString() + " "; //aggiungo uno 0 prima dei numeri con una sola cifra per avere una spaziatura corretta
+                if (i % 10 == 0) schedina += "\n";
+                if (scheda[i] == 0) schedina += "## ";
+                else if (scheda[i] < 10)
+                    schedina += " " + scheda[i].ToString() + " ";
                 else schedina += scheda[i].ToString() + " ";
             }
-            schedina += "\n---------------\n";
+            schedina += "\n------------------------------";
 
         }
 
