@@ -136,7 +136,7 @@ namespace Tombola
 
             for(int i = 0; i<3; i++) //ciclo una volta per riga
             {
-                int[] spazi = new int[4];
+                int[] spazi = new int[4]; //contine le posizioni degli spazi nella riga
 
                 for(int count = 0; count <4; count ++) //ottengo le posizioni degli spazi
                 {
@@ -179,18 +179,27 @@ namespace Tombola
 
             //crezione stringa schedina
 
-            schedina = "---------------------------"; //inizializzo la stringa
+            schedina = "╔════╦════╦════╦════╦════╦════╦════╦════╦════╗"; //inizializzo la stringa
             stampaScheda = true; //valore che verrà usato nel main per stampare la scheda
 
             for(int i = 0; i< scheda.Length; i++) //formattazione stringa ed inserimento numeri
             {
-                if (i % 9 == 0) schedina += "\n";
-                if (scheda[i] == 0) schedina += "## ";
-                else if (scheda[i] < 10)
-                    schedina += " " + scheda[i].ToString() + " ";
-                else schedina += scheda[i].ToString() + " ";
+                if (i % 9 == 0)
+                {
+                    if (i == 0) schedina += "\n║"; //eccezione: la prima riga va a capo senza mettere |
+                    else
+                    {
+                        schedina += "\n╠════╬════╬════╬════╬════╬════╬════╬════╬════╣\n║";
+                    }
+                }
+
+                if (scheda[i] == 0) schedina += "    ║"; //spazio = casella vuota
+                else if (scheda[i] < 10) //numeri sotto al 10
+                    schedina += " 0" + scheda[i].ToString() + " ║";
+                else schedina += " " + scheda[i].ToString() + " ║";
+
             }
-            schedina += "\n---------------------------";
+            schedina += "\n╚════╩════╩════╩════╩════╩════╩════╩════╩════╝";
 
         }
 
