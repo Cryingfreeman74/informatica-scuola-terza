@@ -64,11 +64,11 @@ namespace Tombola
 
             for(int i=0; i<mappa.Length; i++)
             {
-                if (mappa[i] == 0) Console.Write(" # "); //stampo # se il numero non è ancora uscito
+                if (mappa[i] == 0) { Console.ForegroundColor = ConsoleColor.Cyan;  Console.Write(" ##"); Console.ForegroundColor = ConsoleColor.White; } //stampo ## se il numero non è ancora uscito
                 else 
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    if (mappa[i] < 10) Console.Write(" " + mappa[i] + " "); //stampo numero + 2 spazi se il numero è di una cifra
+                    if (mappa[i] < 10) Console.Write("  " + mappa[i]); //stampo numero + 2 spazi se il numero è di una cifra
                     else Console.Write(" " + mappa[i]); //stampo numero + 1 spazio se il numero è di 2 cifre
                     Console.ForegroundColor = ConsoleColor.White;
                 }
