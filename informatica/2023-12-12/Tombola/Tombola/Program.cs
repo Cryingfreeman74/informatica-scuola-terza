@@ -235,7 +235,7 @@ namespace Tombola
                     }
                     //Numero estratto a video
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"\n Numero Uscito: {estratto}.");
+                    Console.WriteLine($"\n Numero Uscito: {estratto}");
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case '2': //controllo Cinquina
