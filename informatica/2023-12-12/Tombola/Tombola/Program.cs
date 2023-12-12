@@ -59,7 +59,7 @@ namespace Tombola
         #region stampa mappa
         static void stampaMappa()
         {
-            Console.WriteLine("\nMarco Balducci 3H\n\n"); //autore
+            Console.WriteLine("\n Marco Balducci 3H\n\n"); //autore
             Console.WriteLine("\n\t~~ TOMBOLA ~~\n"); //Titolo
 
             for(int i=0; i<mappa.Length; i++)
@@ -228,9 +228,15 @@ namespace Tombola
                     if (estratto != -1) aggiornaMappa(estratto); //il numero estratto viene aggiunto
                     else //i numeri estraibili sono terminati, gioco terminato.
                     {
-                        Console.WriteLine("\n\t~~Palline terminate!~~\n");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\n\t~~ Palline terminate! ~~\n"); //messaggio di termine programma all'utente
+                        Console.ForegroundColor = ConsoleColor.White;
                         return true;
                     }
+                    //Numero estratto a video
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"\n Numero Uscito: {estratto}.");
+                    Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case '2': //controllo Cinquina
                     if (verificaCinquina()) Console.WriteLine("\n\tComplimenti! Hai fatto Cinquina!");
