@@ -142,7 +142,7 @@ namespace Mastermind
 
             for (int tentativi = 0; tentativi < difficoltà && numeri_indovinati != 4; tentativi++)
             {
-                Console.WriteLine($"\nTentativo numero {tentativi} su {difficoltà}");
+                Console.WriteLine($"\nTentativo numero {tentativi+1} su {difficoltà}");
                 numeri_indovinati = 0; //inizializzo i numeri indovinati ad ogni turno
 
                 numeri_inseriti = getints();
