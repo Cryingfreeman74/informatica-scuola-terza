@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\Numeri_Primi\\Numeri_Primi.csproj",
+      "projectUniqueName": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\Numeri_Primi\\Numeri_Primi.csproj",
       "projectName": "Numeri_Primi",
-      "projectPath": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\Numeri_Primi\\Numeri_Primi.csproj",
+      "projectPath": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\Numeri_Primi\\Numeri_Primi.csproj",
       "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\Numeri_Primi\\obj\\",
+      "outputPath": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\Numeri_Primi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",

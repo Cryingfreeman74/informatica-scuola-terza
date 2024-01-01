@@ -12,3 +12,17 @@ C:\Users\Marco\Documents\scuola\EserciziNatale23\FusioneVettori\obj\Debug\net6.0
 C:\Users\Marco\Documents\scuola\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.pdb
 C:\Users\Marco\Documents\scuola\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.genruntimeconfig.cache
 C:\Users\Marco\Documents\scuola\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\ref\FusioneVettori.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\bin\Debug\net6.0\FusioneVettori.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\bin\Debug\net6.0\FusioneVettori.deps.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\bin\Debug\net6.0\FusioneVettori.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\bin\Debug\net6.0\FusioneVettori.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\bin\Debug\net6.0\FusioneVettori.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\refint\FusioneVettori.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\FusioneVettori.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\EserciziNatale23\FusioneVettori\obj\Debug\net6.0\ref\FusioneVettori.dll

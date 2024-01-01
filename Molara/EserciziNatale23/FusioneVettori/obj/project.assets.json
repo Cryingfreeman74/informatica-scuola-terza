@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\FusioneVettori\\FusioneVettori.csproj",
+      "projectUniqueName": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\FusioneVettori\\FusioneVettori.csproj",
       "projectName": "FusioneVettori",
-      "projectPath": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\FusioneVettori\\FusioneVettori.csproj",
+      "projectPath": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\FusioneVettori\\FusioneVettori.csproj",
       "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marco\\Documents\\scuola\\EserciziNatale23\\FusioneVettori\\obj\\",
+      "outputPath": "C:\\Users\\Marco\\Documents\\scuola\\informatica-scuola-terza\\Molara\\EserciziNatale23\\FusioneVettori\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
