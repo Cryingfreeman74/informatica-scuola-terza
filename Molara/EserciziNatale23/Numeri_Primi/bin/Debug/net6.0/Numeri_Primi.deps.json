@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Numeri_Primi/1.0.0": {
+        "runtime": {
+          "Numeri_Primi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Numeri_Primi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

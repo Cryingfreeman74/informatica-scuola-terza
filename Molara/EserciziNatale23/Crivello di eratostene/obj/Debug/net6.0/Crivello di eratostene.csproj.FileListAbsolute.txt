@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\bin\Debug\net6.0\Crivello di eratostene.exe
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\bin\Debug\net6.0\Crivello di eratostene.deps.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\bin\Debug\net6.0\Crivello di eratostene.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\bin\Debug\net6.0\Crivello di eratostene.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\bin\Debug\net6.0\Crivello di eratostene.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\refint\Crivello di eratostene.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\Crivello di eratostene.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Crivello di eratostene\obj\Debug\net6.0\ref\Crivello di eratostene.dll

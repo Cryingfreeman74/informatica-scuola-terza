@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\bin\Debug\net6.0\EserciziNatale23.exe
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\bin\Debug\net6.0\EserciziNatale23.deps.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\bin\Debug\net6.0\EserciziNatale23.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\bin\Debug\net6.0\EserciziNatale23.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\bin\Debug\net6.0\EserciziNatale23.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\refint\EserciziNatale23.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\EserciziNatale23.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\EserciziNatale23\obj\Debug\net6.0\ref\EserciziNatale23.dll

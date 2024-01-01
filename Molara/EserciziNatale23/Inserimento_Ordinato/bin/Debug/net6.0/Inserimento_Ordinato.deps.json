@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Inserimento_Ordinato/1.0.0": {
+        "runtime": {
+          "Inserimento_Ordinato.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Inserimento_Ordinato/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

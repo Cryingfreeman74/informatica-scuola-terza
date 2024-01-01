@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\bin\Debug\net6.0\ordinamento_parallelo.exe
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\bin\Debug\net6.0\ordinamento_parallelo.deps.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\bin\Debug\net6.0\ordinamento_parallelo.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\bin\Debug\net6.0\ordinamento_parallelo.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\bin\Debug\net6.0\ordinamento_parallelo.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\refint\ordinamento_parallelo.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ordinamento_parallelo.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinamento_parallelo\obj\Debug\net6.0\ref\ordinamento_parallelo.dll

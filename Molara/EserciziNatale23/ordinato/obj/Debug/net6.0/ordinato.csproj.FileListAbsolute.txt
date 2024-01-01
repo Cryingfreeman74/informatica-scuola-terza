@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\bin\Debug\net6.0\ordinato.exe
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\bin\Debug\net6.0\ordinato.deps.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\bin\Debug\net6.0\ordinato.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\bin\Debug\net6.0\ordinato.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\bin\Debug\net6.0\ordinato.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\refint\ordinato.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ordinato.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\ordinato\obj\Debug\net6.0\ref\ordinato.dll

@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\bin\Debug\net6.0\Numeri_Primi.exe
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\bin\Debug\net6.0\Numeri_Primi.deps.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\bin\Debug\net6.0\Numeri_Primi.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\bin\Debug\net6.0\Numeri_Primi.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\bin\Debug\net6.0\Numeri_Primi.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\refint\Numeri_Primi.dll
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.pdb
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\Numeri_Primi.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\EserciziNatale23\Numeri_Primi\obj\Debug\net6.0\ref\Numeri_Primi.dll
