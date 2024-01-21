@@ -13,3 +13,17 @@ C:\Users\marco.balducci\source\repos\Esercizi Matrici\Esercizi Matrici\obj\Debug
 C:\Users\marco.balducci\source\repos\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.pdb
 C:\Users\marco.balducci\source\repos\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.genruntimeconfig.cache
 C:\Users\marco.balducci\source\repos\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\ref\Esercizi Matrici.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\bin\Debug\net7.0\Esercizi Matrici.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\bin\Debug\net7.0\Esercizi Matrici.deps.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\bin\Debug\net7.0\Esercizi Matrici.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\bin\Debug\net7.0\Esercizi Matrici.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\bin\Debug\net7.0\Esercizi Matrici.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\refint\Esercizi Matrici.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\Esercizi Matrici.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Esercizi Matrici\Esercizi Matrici\obj\Debug\net7.0\ref\Esercizi Matrici.dll
