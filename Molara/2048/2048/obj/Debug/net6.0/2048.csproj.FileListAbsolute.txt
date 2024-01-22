@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\2048\2048\bin\Debug\net6.0\2048.exe
+C:\Users\Marco\Documents\scuola\2048\2048\bin\Debug\net6.0\2048.deps.json
+C:\Users\Marco\Documents\scuola\2048\2048\bin\Debug\net6.0\2048.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\2048\2048\bin\Debug\net6.0\2048.dll
+C:\Users\Marco\Documents\scuola\2048\2048\bin\Debug\net6.0\2048.pdb
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.dll
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\refint\2048.dll
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.pdb
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\2048.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\2048\2048\obj\Debug\net6.0\ref\2048.dll
