@@ -37,8 +37,11 @@ namespace _2048
                                 }
                                 else
                                 {
-                                    map[free, i] = map[j, i];
-                                    map[j, i] = 0;
+                                    if(free != j)
+                                    {
+                                        map[free, i] = map[j, i];
+                                        map[j, i] = 0;
+                                    }
                                     last = free++;
                                 }
                             }
@@ -54,9 +57,9 @@ namespace _2048
                     int free = 3, last = 3;
 
                     for (int j = 3; j >= 0; j--)
-                        if (map[j, i] != 0)
+                        if (map[j, i] != 0 )
                         {
-                            if (i != 3)
+                            if (j != 3)
                             {
                                 if (map[j, i] == map[last, i])
                                 {
@@ -65,8 +68,11 @@ namespace _2048
                                 }
                                 else
                                 {
-                                    map[free, i] = map[j, i];
-                                    map[j, i] = 0;
+                                    if(free != j)
+                                    {
+                                        map[free, i] = map[j, i];
+                                        map[j, i] = 0;
+                                    }
                                     last = free--;
                                 }
                             }
@@ -94,8 +100,11 @@ namespace _2048
                                 }
                                 else
                                 {
-                                    map[i, free] = map[i, j];
-                                    map[i, j] = 0;
+                                    if (free != j)
+                                    {
+                                        map[i, free] = map[i, j];
+                                        map[i, j] = 0;
+                                    }
                                     last = free++;
                                 }
                             }
@@ -122,8 +131,11 @@ namespace _2048
                                 }
                                 else
                                 {
-                                    map[i, free] = map[i, j];
-                                    map[i, j] = 0;
+                                    if(free != j)
+                                    {
+                                        map[i, free] = map[i, j];
+                                        map[i, j] = 0;
+                                    }
                                     last = free--;
                                 }
                             }
@@ -137,31 +149,48 @@ namespace _2048
 
         static void printMap()
         {
-            Console.WriteLine("╔══════╦══════╦══════╦══════╗");
+            Console.Write("╔══════╦══════╦══════╦══════╗");
 
             for (int i = 0; i < map.GetLength(1); i++)
             {
-                Console.WriteLine($"║ {toBuffer(map[i, 0])} ║ {toBuffer(map[i, 1])} ║ {toBuffer(map[i, 2])} ║ {toBuffer(map[i, 3])} ║");
-                if(i != map.GetLength(1)-1)
-                    Console.WriteLine("╠══════╬══════╬══════╬══════╣");
+                Console.Write("\n║");
+                for(int j = 0; j < map.GetLength(0); j++)
+                {
+                    if (map[i, j] != 0)
+                        Console.ForegroundColor = colors[(int)Math.Log2(map[i, j])];
+                    else Console.ForegroundColor = colors[0];
+                    Console.Write($" {toBuffer(map[i, j])} ");
+                    Console.ForegroundColor = ConsoleColor.White; 
+                    Console.Write("║");
+                        
+                }
+                if (i != map.GetLength(1) - 1)
+                    Console.Write("\n╠══════╬══════╬══════╬══════╣");
+
             }
 
-            Console.WriteLine("╚══════╩══════╩══════╩══════╝");
+            Console.WriteLine("\n╚══════╩══════╩══════╩══════╝");
         }
 
         static void addNumber()
         {
-            while(true)
-            {
-                int col = rnd.Next(0, 4);
-                int line = rnd.Next(0, 4);
-
-                if (map[line, col] == 0)
+            bool space_available = false;
+            for(int i = 0; i < map.GetLength(0);i++)
+                for(int j = 0; j< map.GetLength(1); j++)
+                    if (map[i, j] == 0) { space_available = true; break; }
+            if (space_available)
+                while (true)
                 {
-                    map[line, col] = 2;
-                    break;
+                    int col = rnd.Next(0, 4);
+                    int line = rnd.Next(0, 4);
+
+                    if (map[line, col] == 0)
+                    {
+                        map[line, col] = 2;
+                        break;
+                    }
                 }
-            }
+            else throw new Exception("Not enough space in the map.");
         }
 
         static string toBuffer(int num)
@@ -191,7 +220,17 @@ namespace _2048
                 else direction = directions.up;
 
                 move(direction);
-                addNumber();
+                try
+                {
+                    addNumber();
+                } catch (Exception e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\n\tGame Over!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                }
+                
             }
         }
     }
