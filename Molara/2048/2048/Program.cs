@@ -11,6 +11,8 @@ namespace _2048
         static int[,] map = new int[4, 4];
         static Random rnd = new Random();
 
+        static int[] fillArray = { 2, 2, 2, 2, 2, 2, 2, 2, 4, 4 };
+
         static ConsoleColor[] colors = {ConsoleColor.Black, ConsoleColor.Green, ConsoleColor.Cyan, ConsoleColor.Yellow, ConsoleColor.DarkMagenta, ConsoleColor.DarkGreen, ConsoleColor.Blue, ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Magenta, ConsoleColor.White};
 
         enum directions
@@ -236,7 +238,7 @@ namespace _2048
 
                     if (map[line, col] == 0)
                     {
-                        map[line, col] = 2;
+                        map[line, col] = fillArray[rnd.Next(0,fillArray.Length)];
                         break;
                     }
                 }
@@ -315,7 +317,7 @@ namespace _2048
         }
         static void Main(string[] args)
         {
-            Console.ForegroundColor = colors[rnd.Next(0,colors.Length)];
+            Console.ForegroundColor = colors[rnd.Next(1,colors.Length)];
             Console.WriteLine("  ______    ______   __    __   ______  \r\n /      \\  /      \\ |  \\  |  \\ /      \\ \r\n|  $$$$$$\\|  $$$$$$\\| $$  | $$|  $$$$$$\\\r\n \\$$__| $$| $$$\\| $$| $$__| $$| $$__/ $$\r\n /      $$| $$$$\\ $$| $$    $$ >$$    $$\r\n|  $$$$$$ | $$\\$$\\$$ \\$$$$$$$$|  $$$$$$ \r\n| $$_____ | $$_\\$$$$      | $$| $$__/ $$\r\n| $$     \\ \\$$  \\$$$      | $$ \\$$    $$\r\n \\$$$$$$$$  \\$$$$$$        \\$$  \\$$$$$$ \r\n                                        \r\n                                        \r\n                                        \n\n");
             Console.ForegroundColor = ConsoleColor.White;
             int linePos = Console.GetCursorPosition().Top;
