@@ -205,7 +205,7 @@ namespace _2048
         static void printMap(int linePos, int colPos)
         {
             Console.SetCursorPosition(colPos, linePos);
-            Console.WriteLine("points: " + points);
+            Console.WriteLine("points: " + points + "  ← ↑ → ↓");
             Console.Write("\n╔══════╦══════╦══════╦══════╗");
 
             for (int i = 0; i < map.GetLength(1); i++)
@@ -324,6 +324,7 @@ namespace _2048
         }
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.ForegroundColor = colors[rnd.Next(1,colors.Length)];
             Console.WriteLine("  ______    ______   __    __   ______  \r\n /      \\  /      \\ |  \\  |  \\ /      \\ \r\n|  $$$$$$\\|  $$$$$$\\| $$  | $$|  $$$$$$\\\r\n \\$$__| $$| $$$\\| $$| $$__| $$| $$__/ $$\r\n /      $$| $$$$\\ $$| $$    $$ >$$    $$\r\n|  $$$$$$ | $$\\$$\\$$ \\$$$$$$$$|  $$$$$$ \r\n| $$_____ | $$_\\$$$$      | $$| $$__/ $$\r\n| $$     \\ \\$$  \\$$$      | $$ \\$$    $$\r\n \\$$$$$$$$  \\$$$$$$        \\$$  \\$$$$$$ \r\n                                        \r\n                                        \r\n                                        \n\n");
             Console.ForegroundColor = ConsoleColor.White;
