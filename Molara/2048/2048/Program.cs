@@ -317,7 +317,6 @@ namespace _2048
                     case ConsoleKey.RightArrow:
                         return directions.right;
                     default:
-                        Console.WriteLine("Not a valid move, retry.");
                         break;
                 }
             }
