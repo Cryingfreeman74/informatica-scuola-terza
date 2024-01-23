@@ -11,6 +11,8 @@ namespace _2048
         static int[,] map = new int[4, 4];
         static Random rnd = new Random();
 
+        static int points = 0;
+
         static int[] fillArray = { 2, 2, 2, 2, 2, 2, 2, 2, 4, 4 };
 
         static ConsoleColor[] colors = {ConsoleColor.Black, ConsoleColor.Green, ConsoleColor.Cyan, ConsoleColor.Yellow, ConsoleColor.DarkMagenta, ConsoleColor.DarkGreen, ConsoleColor.Blue, ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Magenta, ConsoleColor.White};
@@ -43,6 +45,7 @@ namespace _2048
                                         map[last, i] *= 2;
                                         map[j, i] = 0;
                                         lastSum = last;
+                                        points += map[last, i];
                                     } else
                                         if (free != j)
                                         {
@@ -84,6 +87,7 @@ namespace _2048
                                         map[last, i] *= 2;
                                         map[j, i] = 0;
                                         lastSum = last;
+                                        points += map[last, i];
                                     } else
                                         if (free != j)
                                         {
@@ -127,6 +131,7 @@ namespace _2048
                                         map[i, last] *= 2;
                                         map[i, j] = 0;
                                         lastSum = last;
+                                        points += map[i, last];
                                     } else
                                         if (free != j)
                                         {
@@ -170,6 +175,7 @@ namespace _2048
                                         map[i, last] *= 2;
                                         map[i, j] = 0;
                                         lastSum = last;
+                                        points += map[i, last];
                                     }
                                     else
                                         if (free != j)
@@ -199,7 +205,8 @@ namespace _2048
         static void printMap(int linePos, int colPos)
         {
             Console.SetCursorPosition(colPos, linePos);
-            Console.Write("╔══════╦══════╦══════╦══════╗");
+            Console.WriteLine("points: " + points);
+            Console.Write("\n╔══════╦══════╦══════╦══════╗");
 
             for (int i = 0; i < map.GetLength(1); i++)
             {
