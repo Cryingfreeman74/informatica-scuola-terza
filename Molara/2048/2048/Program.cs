@@ -1,4 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿/* Marco Balducci 3H 23/01/2024
+ * Gioco 2048 con matrice 4 x 4
+*/
+
+using System.ComponentModel.DataAnnotations;
 
 namespace _2048
 {
@@ -7,7 +11,7 @@ namespace _2048
         static int[,] map = new int[4, 4];
         static Random rnd = new Random();
 
-        static ConsoleColor[] colors = {ConsoleColor.Gray, ConsoleColor.Green, ConsoleColor.Cyan, ConsoleColor.Yellow, ConsoleColor.DarkMagenta, ConsoleColor.DarkGreen, ConsoleColor.Blue, ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Magenta, ConsoleColor.White};
+        static ConsoleColor[] colors = {ConsoleColor.Black, ConsoleColor.Green, ConsoleColor.Cyan, ConsoleColor.Yellow, ConsoleColor.DarkMagenta, ConsoleColor.DarkGreen, ConsoleColor.Blue, ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Magenta, ConsoleColor.White};
 
         enum directions
         {
@@ -23,7 +27,7 @@ namespace _2048
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    int free = 0, last = 0;
+                    int free = 0, last = 0, lastSum = -1;
 
                     for (int j = 0; j < 4; j++)
                         if (map[j, i] != 0)
@@ -32,8 +36,18 @@ namespace _2048
                             {
                                 if (map[j, i] == map[last, i])
                                 {
-                                    map[last, i] *= 2;
-                                    map[j, i] = 0;
+                                    if(last != lastSum)
+                                    {
+                                        map[last, i] *= 2;
+                                        map[j, i] = 0;
+                                        lastSum = last;
+                                    } else
+                                        if (free != j)
+                                        {
+                                            map[free, i] = map[j, i];
+                                            map[j, i] = 0;
+                                            last = free++;
+                                        }
                                 }
                                 else
                                 {
@@ -54,7 +68,7 @@ namespace _2048
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    int free = 3, last = 3;
+                    int free = 3, last = 3, lastSum = -1;
 
                     for (int j = 3; j >= 0; j--)
                         if (map[j, i] != 0 )
@@ -63,8 +77,19 @@ namespace _2048
                             {
                                 if (map[j, i] == map[last, i])
                                 {
-                                    map[last, i] *= 2;
-                                    map[j, i] = 0;
+                                    if(last != lastSum)
+                                    {
+                                        map[last, i] *= 2;
+                                        map[j, i] = 0;
+                                        lastSum = last;
+                                    } else
+                                        if (free != j)
+                                        {
+                                            map[free, i] = map[j, i];
+                                            map[j, i] = 0;
+                                            last = free--;
+                                        }
+
                                 }
                                 else
                                 {
@@ -86,7 +111,7 @@ namespace _2048
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    int free = 0, last = 0;
+                    int free = 0, last = 0, lastSum = -1;
 
                     for (int j = 0; j < 4; j++)
                         if (map[i, j] != 0)
@@ -95,8 +120,20 @@ namespace _2048
                             {
                                 if (map[i, j] == map[i, last])
                                 {
-                                    map[i, last] *= 2;
-                                    map[i, j] = 0;
+                                    if(last != lastSum)
+                                    {
+                                        map[i, last] *= 2;
+                                        map[i, j] = 0;
+                                        lastSum = last;
+                                    } else
+                                        if (free != j)
+                                        {
+                                            map[i, free] = map[i, j];
+                                            map[i, j] = 0;
+                                            last = free++;
+                                        }
+                                        
+
                                 }
                                 else
                                 {
@@ -117,7 +154,7 @@ namespace _2048
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    int free = 3, last = 3;
+                    int free = 3, last = 3, lastSum = -1;
 
                     for (int j = 3; j >= 0; j--)
                         if (map[i, j] != 0)
@@ -126,12 +163,23 @@ namespace _2048
                             {
                                 if (map[i, j] == map[i, last])
                                 {
-                                    map[i, last] *= 2;
-                                    map[i, j] = 0;
+                                    if (last != lastSum)
+                                    {
+                                        map[i, last] *= 2;
+                                        map[i, j] = 0;
+                                        lastSum = last;
+                                    }
+                                    else
+                                        if (free != j)
+                                    {
+                                        map[i, free] = map[i, j];
+                                        map[i, j] = 0;
+                                        last = free--;
+                                    }
                                 }
                                 else
                                 {
-                                    if(free != j)
+                                    if (free != j)
                                     {
                                         map[i, free] = map[i, j];
                                         map[i, j] = 0;
@@ -140,15 +188,15 @@ namespace _2048
                                 }
                             }
                             else free--;
-
                         }
                 }
             }
             else throw new Exception("Invalid direction.");
         }
 
-        static void printMap()
+        static void printMap(int linePos, int colPos)
         {
+            Console.SetCursorPosition(colPos, linePos);
             Console.Write("╔══════╦══════╦══════╦══════╗");
 
             for (int i = 0; i < map.GetLength(1); i++)
@@ -156,11 +204,13 @@ namespace _2048
                 Console.Write("\n║");
                 for(int j = 0; j < map.GetLength(0); j++)
                 {
+                    Console.ForegroundColor = ConsoleColor.Black;
                     if (map[i, j] != 0)
-                        Console.ForegroundColor = colors[(int)Math.Log2(map[i, j])];
-                    else Console.ForegroundColor = colors[0];
+                        Console.BackgroundColor = colors[(int)Math.Log2(map[i, j])];
+                    else Console.BackgroundColor = colors[0];
                     Console.Write($" {toBuffer(map[i, j])} ");
-                    Console.ForegroundColor = ConsoleColor.White; 
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.Write("║");
                         
                 }
@@ -190,7 +240,42 @@ namespace _2048
                         break;
                     }
                 }
-            else throw new Exception("Not enough space in the map.");
+            else if(checkGameOver()) throw new Exception("Game over.");
+        }
+
+        static bool checkWin()
+        {
+            for(int i = 0; i < map.GetLength(0); i++)
+                for (int j = 0; j < map.GetLength(1); j++)
+                    if (map[i, j] == 2048) return true;
+            return false;
+        }
+
+        static bool checkGameOver()
+        {
+            for(int i = 0; i < map.GetLength(0); i++)
+            {
+                for(int j = 0; j < map.GetLength(1); j++)
+                {
+                    try
+                    {
+                        if (map[i - 1, j] == map[i, j]) return false;
+                    } catch (Exception e) { }
+                    try
+                    {
+                        if (map[i, j - 1] == map[i, j]) return false;
+                    } catch (Exception e) { }
+                    try
+                    {
+                        if ((map[i + 1, j]) == map[i, j]) return false;
+                    } catch (Exception e) { }
+                    try
+                    {
+                        if (map[i, j + 1] == map[i, j]) return false;
+                    } catch (Exception e) { }
+                }
+            } 
+            return true;
         }
 
         static string toBuffer(int num)
@@ -206,30 +291,62 @@ namespace _2048
 
             return numero;
         }
-        static void Main(string[] args)
+
+        static directions getDirection()
         {
             while(true)
             {
-                printMap();
-                directions direction;
                 ConsoleKey input = Console.ReadKey().Key;
-                if (input == ConsoleKey.RightArrow) direction = directions.right;
-                else if (input == ConsoleKey.LeftArrow) direction = directions.left;
-                else if (input == ConsoleKey.UpArrow) direction = directions.up;
-                else if(input == ConsoleKey.DownArrow) direction = directions.down;
-                else direction = directions.up;
-
-                move(direction);
+                switch (input)
+                {
+                    case ConsoleKey.UpArrow:
+                        return directions.up;
+                    case ConsoleKey.DownArrow:
+                        return directions.down;
+                    case ConsoleKey.LeftArrow:
+                        return directions.left;
+                    case ConsoleKey.RightArrow:
+                        return directions.right;
+                    default:
+                        Console.WriteLine("Not a valid move, retry.");
+                        break;
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            Console.ForegroundColor = colors[rnd.Next(0,colors.Length)];
+            Console.WriteLine("  ______    ______   __    __   ______  \r\n /      \\  /      \\ |  \\  |  \\ /      \\ \r\n|  $$$$$$\\|  $$$$$$\\| $$  | $$|  $$$$$$\\\r\n \\$$__| $$| $$$\\| $$| $$__| $$| $$__/ $$\r\n /      $$| $$$$\\ $$| $$    $$ >$$    $$\r\n|  $$$$$$ | $$\\$$\\$$ \\$$$$$$$$|  $$$$$$ \r\n| $$_____ | $$_\\$$$$      | $$| $$__/ $$\r\n| $$     \\ \\$$  \\$$$      | $$ \\$$    $$\r\n \\$$$$$$$$  \\$$$$$$        \\$$  \\$$$$$$ \r\n                                        \r\n                                        \r\n                                        \n\n");
+            Console.ForegroundColor = ConsoleColor.White;
+            int linePos = Console.GetCursorPosition().Top;
+            int colPos = Console.GetCursorPosition().Left;
+            while(true)
+            {
                 try
                 {
                     addNumber();
-                } catch (Exception e)
+                }
+                catch (Exception e)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\n\tGame Over!");
                     Console.ForegroundColor = ConsoleColor.White;
                     break;
                 }
+
+                printMap(linePos, colPos);
+
+                if (checkWin())
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("\n\t You Won!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    break;
+                }
+
+                directions direction = getDirection();
+
+                move(direction);
                 
             }
         }
