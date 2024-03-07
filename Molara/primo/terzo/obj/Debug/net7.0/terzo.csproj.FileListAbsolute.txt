@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\primo\terzo\bin\Debug\net7.0\terzo.exe
+C:\Users\Marco\Documents\scuola\primo\terzo\bin\Debug\net7.0\terzo.deps.json
+C:\Users\Marco\Documents\scuola\primo\terzo\bin\Debug\net7.0\terzo.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\primo\terzo\bin\Debug\net7.0\terzo.dll
+C:\Users\Marco\Documents\scuola\primo\terzo\bin\Debug\net7.0\terzo.pdb
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.dll
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\refint\terzo.dll
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.pdb
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\terzo.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\primo\terzo\obj\Debug\net7.0\ref\terzo.dll

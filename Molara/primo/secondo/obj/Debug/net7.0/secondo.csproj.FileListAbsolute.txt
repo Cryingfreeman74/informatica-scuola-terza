@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\primo\secondo\bin\Debug\net7.0\secondo.exe
+C:\Users\Marco\Documents\scuola\primo\secondo\bin\Debug\net7.0\secondo.deps.json
+C:\Users\Marco\Documents\scuola\primo\secondo\bin\Debug\net7.0\secondo.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\primo\secondo\bin\Debug\net7.0\secondo.dll
+C:\Users\Marco\Documents\scuola\primo\secondo\bin\Debug\net7.0\secondo.pdb
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.dll
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\refint\secondo.dll
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.pdb
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\secondo.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\primo\secondo\obj\Debug\net7.0\ref\secondo.dll

@@ -1,0 +1,14 @@
+C:\Users\Marco\Documents\scuola\primo\quarto\bin\Debug\net7.0\quarto.exe
+C:\Users\Marco\Documents\scuola\primo\quarto\bin\Debug\net7.0\quarto.deps.json
+C:\Users\Marco\Documents\scuola\primo\quarto\bin\Debug\net7.0\quarto.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\primo\quarto\bin\Debug\net7.0\quarto.dll
+C:\Users\Marco\Documents\scuola\primo\quarto\bin\Debug\net7.0\quarto.pdb
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.dll
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\refint\quarto.dll
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.pdb
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\quarto.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\primo\quarto\obj\Debug\net7.0\ref\quarto.dll
