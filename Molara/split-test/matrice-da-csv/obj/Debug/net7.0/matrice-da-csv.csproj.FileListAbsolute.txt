@@ -1,0 +1,15 @@
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\bin\Debug\net7.0\matrice-da-csv.exe
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\bin\Debug\net7.0\matrice-da-csv.deps.json
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\bin\Debug\net7.0\matrice-da-csv.runtimeconfig.json
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\bin\Debug\net7.0\matrice-da-csv.dll
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\bin\Debug\net7.0\matrice-da-csv.pdb
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.csproj.AssemblyReference.cache
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.AssemblyInfoInputs.cache
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.AssemblyInfo.cs
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.csproj.CoreCompileInputs.cache
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.dll
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\refint\matrice-da-csv.dll
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.pdb
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\matrice-da-csv.genruntimeconfig.cache
+C:\Users\marco.balducci\source\repos\split-test\matrice-da-csv\obj\Debug\net7.0\ref\matrice-da-csv.dll

@@ -1,0 +1,15 @@
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.csproj.AssemblyReference.cache
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.AssemblyInfoInputs.cache
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.AssemblyInfo.cs
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.csproj.CoreCompileInputs.cache
+C:\Users\marco.balducci\source\repos\split-test\split-test\bin\Debug\net7.0\split-test.exe
+C:\Users\marco.balducci\source\repos\split-test\split-test\bin\Debug\net7.0\split-test.deps.json
+C:\Users\marco.balducci\source\repos\split-test\split-test\bin\Debug\net7.0\split-test.runtimeconfig.json
+C:\Users\marco.balducci\source\repos\split-test\split-test\bin\Debug\net7.0\split-test.dll
+C:\Users\marco.balducci\source\repos\split-test\split-test\bin\Debug\net7.0\split-test.pdb
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.dll
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\refint\split-test.dll
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.pdb
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\split-test.genruntimeconfig.cache
+C:\Users\marco.balducci\source\repos\split-test\split-test\obj\Debug\net7.0\ref\split-test.dll
