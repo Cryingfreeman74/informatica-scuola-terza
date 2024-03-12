@@ -152,7 +152,7 @@ namespace Risolvi_Cruciverba_Wpf
 
                     current = "";
                     //caso basso
-                    for (int r = ir; r < matrix.GetLength(1); r++)
+                    for (int r = ir; r < matrix.GetLength(0); r++)
                     {
                         try
                         {

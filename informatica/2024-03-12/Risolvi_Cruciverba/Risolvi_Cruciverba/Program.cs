@@ -134,7 +134,7 @@ namespace Risolvi_Cruciverba
 
                     current = "";
                     //caso basso
-                    for (int r = ir; r < matrix.GetLength(1); r++)
+                    for (int r = ir; r < matrix.GetLength(0); r++)
                     {
                         try
                         {
