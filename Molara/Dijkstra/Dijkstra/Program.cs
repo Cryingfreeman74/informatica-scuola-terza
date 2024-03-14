@@ -59,7 +59,7 @@
                 v.Add(min);
                 for(int i = 0; i < matrice.GetLength(1); i++) 
                 {
-                    if (matrice[min, i] >= 0 && !v.Contains(i)) 
+                    if (matrice[min, i] > 0 && !v.Contains(i)) 
                     {
                         if(d[min] + matrice[min, i] < d[i])
                         {
@@ -82,7 +82,6 @@
                 for(int ic = 0; ic < matrice.GetLength(1); ic++)
                 {
                     Console.Write(matrice[ir, ic] + " ");
-                    if (matrice[ir, ic] == 0) matrice[ir, ic] = 100000000;
                 }
                     
                 Console.WriteLine();
