@@ -13,3 +13,17 @@ C:\Users\marco.balducci\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\refint\D
 C:\Users\marco.balducci\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.pdb
 C:\Users\marco.balducci\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.genruntimeconfig.cache
 C:\Users\marco.balducci\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\ref\Dijkstra.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\refint\Dijkstra.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.AssemblyInfoInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.AssemblyInfo.cs
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.csproj.CoreCompileInputs.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.exe
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.deps.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.runtimeconfig.json
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.dll
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.pdb
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.genruntimeconfig.cache
+C:\Users\Marco\Documents\scuola\informatica-scuola-terza\Molara\Dijkstra\Dijkstra\obj\Debug\net7.0\ref\Dijkstra.dll

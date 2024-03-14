@@ -31,11 +31,17 @@
         static int findMin()
         {
             int min = int.MaxValue;
+            int min_pos = int.MaxValue;
+
             for(int i = 0; i < d.Length; i++)
             {
-                if (d[i] < min && !v.Contains(d[i])) min = d[i];
+                if (d[i] < min && !v.Contains(i))
+                {
+                    min_pos = i;
+                    min = d[i];
+                }
             }
-            return min;
+            return min_pos;
         }
 
         static int dijkstra(int source, int target)
@@ -48,6 +54,23 @@
             while (true)
             {
                 int min = findMin();
+                if (min == int.MaxValue) return -1;
+
+                v.Add(min);
+                for(int i = 0; i < matrice.GetLength(1); i++) 
+                {
+                    if (matrice[min, i] >= 0 && !v.Contains(i)) 
+                    {
+                        if(d[min] + matrice[min, i] < d[i])
+                        {
+                            d[i] = d[min] + matrice[min, i];
+                            p[i] = min;
+                        }
+                    }
+                }
+
+                if (min == target) return d[target];
+
             }
 
         }
@@ -57,9 +80,17 @@
             for(int ir = 0; ir < matrice.GetLength(0); ir++)
             {
                 for(int ic = 0; ic < matrice.GetLength(1); ic++)
+                {
                     Console.Write(matrice[ir, ic] + " ");
+                    if (matrice[ir, ic] == 0) matrice[ir, ic] = 100000000;
+                }
+                    
                 Console.WriteLine();
             }
+
+            Console.WriteLine(dijkstra(0, 2));
+
+            Console.ReadKey();
         }
     }
 }
