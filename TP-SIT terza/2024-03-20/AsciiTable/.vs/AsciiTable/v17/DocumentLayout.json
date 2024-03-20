@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{269B0DB3-8724-403C-8BA6-81F42A0390E2}|UnicodeTable\\UnicodeTable.csproj|c:\\users\\marco.balducci\\source\\repos\\asciitable\\unicodetable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{269B0DB3-8724-403C-8BA6-81F42A0390E2}|UnicodeTable\\UnicodeTable.csproj|solutionrelative:unicodetable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8142348-8B8F-4C82-B7C4-4A75AA731712}|AsciiTableEstesa\\AsciiTableEstesa.csproj|c:\\users\\marco.balducci\\source\\repos\\asciitable\\asciitableestesa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8142348-8B8F-4C82-B7C4-4A75AA731712}|AsciiTableEstesa\\AsciiTableEstesa.csproj|solutionrelative:asciitableestesa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DBBB675-0D34-4429-967A-D8D5D4EB69C4}|AsciiTable\\AsciiTable.csproj|C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\asciitable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DBBB675-0D34-4429-967A-D8D5D4EB69C4}|AsciiTable\\AsciiTable.csproj|solutionrelative:asciitable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\AsciiTableEstesa\\Program.cs",
+              "RelativeDocumentMoniker": "AsciiTableEstesa\\Program.cs",
+              "ToolTip": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\AsciiTableEstesa\\Program.cs",
+              "RelativeToolTip": "AsciiTableEstesa\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T07:40:57.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\UnicodeTable\\Program.cs",
+              "RelativeDocumentMoniker": "UnicodeTable\\Program.cs",
+              "ToolTip": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\UnicodeTable\\Program.cs",
+              "RelativeToolTip": "UnicodeTable\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T07:49:25.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\AsciiTable\\Program.cs",
+              "RelativeDocumentMoniker": "AsciiTable\\Program.cs",
+              "ToolTip": "C:\\Users\\marco.balducci\\source\\repos\\AsciiTable\\AsciiTable\\Program.cs",
+              "RelativeToolTip": "AsciiTable\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T07:15:52.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
