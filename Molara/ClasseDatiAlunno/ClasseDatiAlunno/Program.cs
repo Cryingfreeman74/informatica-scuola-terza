@@ -6,9 +6,9 @@ namespace ClasseDatiAlunno
     {
         private string nome, cognome;
         private int anno_di_nascita, numero_materie;
-        private Dictionary<materie, List<int>> voti = new Dictionary<materie, List<int>>();
+        private Dictionary<Materie, List<int>> voti = new Dictionary<Materie, List<int>>();
   
-        public enum materie
+        public enum Materie
         {
             Italiano,
             Matematica,
@@ -23,45 +23,28 @@ namespace ClasseDatiAlunno
             this.cognome = cognome;
         }
 
-        public void Aggiungi_Voto(materie materia, int voto)
+        public void Aggiungi_Voto(Materie materia, int voto)
         {
             if (voti.ContainsKey(materia)) voti[materia].Add(voto);
             else voti.Add(materia, new List<int> { voto });
         }
 
-        public double media_Materia(materie materia)
+        public double media_Materia(Materie materia)
         {
             if (voti.ContainsKey(materia)) return voti[materia].Average();
             else return 0;
         }
 
-        public List<int> voti_materia(materie materia)
+        public List<int> voti_materia(Materie materia)
         {
             if (!voti.ContainsKey(materia)) return new List<int>();
             else return voti[materia];
         }
 
-        public Dictionary<materie, List<int>> tutti_voti() 
+        public Dictionary<Materie, List<int>> tutti_voti() 
         {
             return voti;
         }
     }
 
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Alunno alunno = new Alunno("De Rosa", "Antonio", 2006);
-
-            alunno.Aggiungi_Voto(Alunno.materie.Italiano, 2);
-            alunno.Aggiungi_Voto(Alunno.materie.Italiano, 8);
-            alunno.Aggiungi_Voto(Alunno.materie.Italiano, 7);
-            alunno.Aggiungi_Voto(Alunno.materie.Italiano, 10);
-            alunno.Aggiungi_Voto(Alunno.materie.Matematica, 10);
-            alunno.Aggiungi_Voto(Alunno.materie.Matematica, 4);
-            alunno.Aggiungi_Voto(Alunno.materie.Matematica, 6);
-
-            Console.WriteLine($"Italiano: {alunno.media_Materia(Alunno.materie.Italiano)}, Matematica: {alunno.media_Materia(Alunno.materie.Matematica)}");
-        }
-    }
 }
